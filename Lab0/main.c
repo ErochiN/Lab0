@@ -6,7 +6,9 @@ void main()
 {
 	setlocale(LC_CTYPE, "RUS");
 
-	puts("Привет");
+	puts("Нажмите Enter для продолжения...");
 
-	system("pause");
+	getchar(); // ожидание нажатия Enter
+
+	puts("Продолжение программы");
 }
